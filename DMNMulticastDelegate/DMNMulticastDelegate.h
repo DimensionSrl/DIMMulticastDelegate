@@ -14,5 +14,6 @@ FOUNDATION_EXPORT double DMNMulticastDelegateVersionNumber;
 FOUNDATION_EXPORT const unsigned char DMNMulticastDelegateVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DMNMulticastDelegate/PublicHeader.h>
-
-
+#import <DMNMulticastDelegate/DMNMulticastDelegateImplementation.h>
+#import <DMNMulticastDelegate/UIScrollView+MulticastDelegate.h>
+#import <DMNMulticastDelegate/UINavigationController+MulticastDelegate.h>

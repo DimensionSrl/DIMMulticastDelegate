@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		318CC5212ADE959C00351ED9 /* DMNMulticastDelegate.docc in Sources */ = {isa = PBXBuildFile; fileRef = 318CC5202ADE959C00351ED9 /* DMNMulticastDelegate.docc */; };
 		318CC5272ADE959C00351ED9 /* DMNMulticastDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318CC51C2ADE959C00351ED9 /* DMNMulticastDelegate.framework */; };
 		318CC52C2ADE959C00351ED9 /* DMNMulticastDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC52B2ADE959C00351ED9 /* DMNMulticastDelegateTests.m */; };
 		318CC52D2ADE959C00351ED9 /* DMNMulticastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC51F2ADE959C00351ED9 /* DMNMulticastDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318CC5382ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC5362ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318CC5392ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC5372ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m */; };
+		318CC53C2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC53A2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318CC53D2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC53B2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m */; };
+		318CC5422ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC5402ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318CC5432ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC5412ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +31,14 @@
 /* Begin PBXFileReference section */
 		318CC51C2ADE959C00351ED9 /* DMNMulticastDelegate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMNMulticastDelegate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		318CC51F2ADE959C00351ED9 /* DMNMulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNMulticastDelegate.h; sourceTree = "<group>"; };
-		318CC5202ADE959C00351ED9 /* DMNMulticastDelegate.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DMNMulticastDelegate.docc; sourceTree = "<group>"; };
 		318CC5262ADE959C00351ED9 /* DMNMulticastDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMNMulticastDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		318CC52B2ADE959C00351ED9 /* DMNMulticastDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNMulticastDelegateTests.m; sourceTree = "<group>"; };
+		318CC5362ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNMulticastDelegateImplementation.h; sourceTree = "<group>"; };
+		318CC5372ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNMulticastDelegateImplementation.m; sourceTree = "<group>"; };
+		318CC53A2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MulticastDelegate.h"; sourceTree = "<group>"; };
+		318CC53B2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MulticastDelegate.m"; sourceTree = "<group>"; };
+		318CC5402ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MulticastDelegate.h"; sourceTree = "<group>"; };
+		318CC5412ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MulticastDelegate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				318CC51F2ADE959C00351ED9 /* DMNMulticastDelegate.h */,
-				318CC5202ADE959C00351ED9 /* DMNMulticastDelegate.docc */,
+				318CC5362ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h */,
+				318CC5372ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m */,
+				318CC53E2ADE9EAC00351ED9 /* UIKit Categories */,
 			);
 			path = DMNMulticastDelegate;
 			sourceTree = "<group>";
@@ -85,6 +97,17 @@
 			path = DMNMulticastDelegateTests;
 			sourceTree = "<group>";
 		};
+		318CC53E2ADE9EAC00351ED9 /* UIKit Categories */ = {
+			isa = PBXGroup;
+			children = (
+				318CC53A2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h */,
+				318CC53B2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m */,
+				318CC5402ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h */,
+				318CC5412ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.m */,
+			);
+			path = "UIKit Categories";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -92,6 +115,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318CC5382ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h in Headers */,
+				318CC53C2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h in Headers */,
+				318CC5422ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h in Headers */,
 				318CC52D2ADE959C00351ED9 /* DMNMulticastDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				318CC5212ADE959C00351ED9 /* DMNMulticastDelegate.docc in Sources */,
+				318CC5432ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.m in Sources */,
+				318CC5392ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m in Sources */,
+				318CC53D2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
