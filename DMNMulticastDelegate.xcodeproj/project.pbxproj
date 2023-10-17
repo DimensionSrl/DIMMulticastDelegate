@@ -63,8 +63,8 @@
 		318CC5122ADE959C00351ED9 = {
 			isa = PBXGroup;
 			children = (
-				318CC51E2ADE959C00351ED9 /* DMNMulticastDelegate */,
-				318CC52A2ADE959C00351ED9 /* DMNMulticastDelegateTests */,
+				318CC51E2ADE959C00351ED9 /* Source */,
+				318CC52A2ADE959C00351ED9 /* Tests */,
 				318CC51D2ADE959C00351ED9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +78,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		318CC51E2ADE959C00351ED9 /* DMNMulticastDelegate */ = {
+		318CC51E2ADE959C00351ED9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				318CC51F2ADE959C00351ED9 /* DMNMulticastDelegate.h */,
@@ -86,15 +86,15 @@
 				318CC5372ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m */,
 				318CC53E2ADE9EAC00351ED9 /* UIKit Categories */,
 			);
-			path = DMNMulticastDelegate;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		318CC52A2ADE959C00351ED9 /* DMNMulticastDelegateTests */ = {
+		318CC52A2ADE959C00351ED9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				318CC52B2ADE959C00351ED9 /* DMNMulticastDelegateTests.m */,
 			);
-			path = DMNMulticastDelegateTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		318CC53E2ADE9EAC00351ED9 /* UIKit Categories */ = {
