@@ -1,4 +1,4 @@
 
 # DMNMulticastDelegate
 
-Ready to user multicast delegate for UIKit
+A ready to use multicast delegate for UIKit.
