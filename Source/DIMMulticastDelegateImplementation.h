@@ -1,6 +1,6 @@
 //
-//  DMNMulticastDelegateImplementation.h
-//  DMNMulticastDelegate
+//  DIMMulticastDelegateImplementation.h
+//  DIMMulticastDelegate
 //
 //  Created by Matteo Matassoni on 17/10/23.
 //
@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 NS_SWIFT_NAME(MulticastDelegate)
-@interface DMNMulticastDelegate : NSObject
+@interface DIMMulticastDelegate : NSObject
 
 - (instancetype)initWithTarget:(id)target
                 delegateGetter:(SEL)delegateGetter

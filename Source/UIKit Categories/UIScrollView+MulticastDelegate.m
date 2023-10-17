@@ -1,30 +1,30 @@
 //
 //  UIScrollView+MulticastDelegate.m
-//  DMNMulticastDelegate
+//  DIMMulticastDelegate
 //
 //  Created by Matteo Matassoni on 17/10/23.
 //
 
 #import "UIScrollView+MulticastDelegate.h"
 #import <objc/runtime.h>
-#import "DMNMulticastDelegateImplementation.h"
+#import "DIMMulticastDelegateImplementation.h"
 
-static void *DMNUIScrollViewMulticastDelegatePropertyKey = &DMNUIScrollViewMulticastDelegatePropertyKey;
+static void *DIMUIScrollViewMulticastDelegatePropertyKey = &DIMUIScrollViewMulticastDelegatePropertyKey;
 
 @implementation UIScrollView (MulticastDelegate)
 
-- (DMNMulticastDelegate *)multicastDelegate {
+- (DIMMulticastDelegate *)multicastDelegate {
     id associatedObject = objc_getAssociatedObject(self,
-                                                   &DMNUIScrollViewMulticastDelegatePropertyKey);
-    if (associatedObject && [associatedObject isKindOfClass:DMNMulticastDelegate.class]) {
-        return (DMNMulticastDelegate *)associatedObject;
+                                                   &DIMUIScrollViewMulticastDelegatePropertyKey);
+    if (associatedObject && [associatedObject isKindOfClass:DIMMulticastDelegate.class]) {
+        return (DIMMulticastDelegate *)associatedObject;
     }
 
-    DMNMulticastDelegate *multicastDelegate = [[DMNMulticastDelegate alloc] initWithTarget:self
+    DIMMulticastDelegate *multicastDelegate = [[DIMMulticastDelegate alloc] initWithTarget:self
                                                                             delegateGetter:@selector(delegate)
                                                                             delegateSetter:@selector(setDelegate:)];
     objc_setAssociatedObject(self,
-                             &DMNUIScrollViewMulticastDelegatePropertyKey,
+                             &DIMUIScrollViewMulticastDelegatePropertyKey,
                              multicastDelegate,
                              OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     return multicastDelegate;

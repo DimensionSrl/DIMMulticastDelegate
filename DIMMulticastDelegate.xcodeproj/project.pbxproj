@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		318CC5272ADE959C00351ED9 /* DMNMulticastDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318CC51C2ADE959C00351ED9 /* DMNMulticastDelegate.framework */; };
-		318CC52C2ADE959C00351ED9 /* DMNMulticastDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC52B2ADE959C00351ED9 /* DMNMulticastDelegateTests.m */; };
-		318CC52D2ADE959C00351ED9 /* DMNMulticastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC51F2ADE959C00351ED9 /* DMNMulticastDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		318CC5382ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC5362ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		318CC5392ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC5372ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m */; };
+		318CC5272ADE959C00351ED9 /* DIMMulticastDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318CC51C2ADE959C00351ED9 /* DIMMulticastDelegate.framework */; };
+		318CC52C2ADE959C00351ED9 /* DIMMulticastDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC52B2ADE959C00351ED9 /* DIMMulticastDelegateTests.m */; };
+		318CC52D2ADE959C00351ED9 /* DIMMulticastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC51F2ADE959C00351ED9 /* DIMMulticastDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318CC5382ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC5362ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318CC5392ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC5372ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.m */; };
 		318CC53C2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC53A2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		318CC53D2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CC53B2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m */; };
 		318CC5422ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318CC5402ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,17 +24,17 @@
 			containerPortal = 318CC5132ADE959C00351ED9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 318CC51B2ADE959C00351ED9;
-			remoteInfo = DMNMulticastDelegate;
+			remoteInfo = DIMMulticastDelegate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		318CC51C2ADE959C00351ED9 /* DMNMulticastDelegate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMNMulticastDelegate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		318CC51F2ADE959C00351ED9 /* DMNMulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNMulticastDelegate.h; sourceTree = "<group>"; };
-		318CC5262ADE959C00351ED9 /* DMNMulticastDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMNMulticastDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		318CC52B2ADE959C00351ED9 /* DMNMulticastDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNMulticastDelegateTests.m; sourceTree = "<group>"; };
-		318CC5362ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNMulticastDelegateImplementation.h; sourceTree = "<group>"; };
-		318CC5372ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNMulticastDelegateImplementation.m; sourceTree = "<group>"; };
+		318CC51C2ADE959C00351ED9 /* DIMMulticastDelegate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DIMMulticastDelegate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		318CC51F2ADE959C00351ED9 /* DIMMulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIMMulticastDelegate.h; sourceTree = "<group>"; };
+		318CC5262ADE959C00351ED9 /* DIMMulticastDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIMMulticastDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		318CC52B2ADE959C00351ED9 /* DIMMulticastDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIMMulticastDelegateTests.m; sourceTree = "<group>"; };
+		318CC5362ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIMMulticastDelegateImplementation.h; sourceTree = "<group>"; };
+		318CC5372ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIMMulticastDelegateImplementation.m; sourceTree = "<group>"; };
 		318CC53A2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MulticastDelegate.h"; sourceTree = "<group>"; };
 		318CC53B2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MulticastDelegate.m"; sourceTree = "<group>"; };
 		318CC5402ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MulticastDelegate.h"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				318CC5272ADE959C00351ED9 /* DMNMulticastDelegate.framework in Frameworks */,
+				318CC5272ADE959C00351ED9 /* DIMMulticastDelegate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		318CC51D2ADE959C00351ED9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				318CC51C2ADE959C00351ED9 /* DMNMulticastDelegate.framework */,
-				318CC5262ADE959C00351ED9 /* DMNMulticastDelegateTests.xctest */,
+				318CC51C2ADE959C00351ED9 /* DIMMulticastDelegate.framework */,
+				318CC5262ADE959C00351ED9 /* DIMMulticastDelegateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +81,9 @@
 		318CC51E2ADE959C00351ED9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				318CC51F2ADE959C00351ED9 /* DMNMulticastDelegate.h */,
-				318CC5362ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h */,
-				318CC5372ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m */,
+				318CC51F2ADE959C00351ED9 /* DIMMulticastDelegate.h */,
+				318CC5362ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.h */,
+				318CC5372ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.m */,
 				318CC53E2ADE9EAC00351ED9 /* UIKit Categories */,
 			);
 			path = Source;
@@ -92,7 +92,7 @@
 		318CC52A2ADE959C00351ED9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				318CC52B2ADE959C00351ED9 /* DMNMulticastDelegateTests.m */,
+				318CC52B2ADE959C00351ED9 /* DIMMulticastDelegateTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -115,19 +115,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				318CC5382ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.h in Headers */,
+				318CC5382ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.h in Headers */,
 				318CC53C2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.h in Headers */,
 				318CC5422ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.h in Headers */,
-				318CC52D2ADE959C00351ED9 /* DMNMulticastDelegate.h in Headers */,
+				318CC52D2ADE959C00351ED9 /* DIMMulticastDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		318CC51B2ADE959C00351ED9 /* DMNMulticastDelegate */ = {
+		318CC51B2ADE959C00351ED9 /* DIMMulticastDelegate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 318CC5302ADE959C00351ED9 /* Build configuration list for PBXNativeTarget "DMNMulticastDelegate" */;
+			buildConfigurationList = 318CC5302ADE959C00351ED9 /* Build configuration list for PBXNativeTarget "DIMMulticastDelegate" */;
 			buildPhases = (
 				318CC5172ADE959C00351ED9 /* Headers */,
 				318CC5182ADE959C00351ED9 /* Sources */,
@@ -138,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = DMNMulticastDelegate;
-			productName = DMNMulticastDelegate;
-			productReference = 318CC51C2ADE959C00351ED9 /* DMNMulticastDelegate.framework */;
+			name = DIMMulticastDelegate;
+			productName = DIMMulticastDelegate;
+			productReference = 318CC51C2ADE959C00351ED9 /* DIMMulticastDelegate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		318CC5252ADE959C00351ED9 /* DMNMulticastDelegateTests */ = {
+		318CC5252ADE959C00351ED9 /* DIMMulticastDelegateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 318CC5332ADE959C00351ED9 /* Build configuration list for PBXNativeTarget "DMNMulticastDelegateTests" */;
+			buildConfigurationList = 318CC5332ADE959C00351ED9 /* Build configuration list for PBXNativeTarget "DIMMulticastDelegateTests" */;
 			buildPhases = (
 				318CC5222ADE959C00351ED9 /* Sources */,
 				318CC5232ADE959C00351ED9 /* Frameworks */,
@@ -156,9 +156,9 @@
 			dependencies = (
 				318CC5292ADE959C00351ED9 /* PBXTargetDependency */,
 			);
-			name = DMNMulticastDelegateTests;
-			productName = DMNMulticastDelegateTests;
-			productReference = 318CC5262ADE959C00351ED9 /* DMNMulticastDelegateTests.xctest */;
+			name = DIMMulticastDelegateTests;
+			productName = DIMMulticastDelegateTests;
+			productReference = 318CC5262ADE959C00351ED9 /* DIMMulticastDelegateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 318CC5162ADE959C00351ED9 /* Build configuration list for PBXProject "DMNMulticastDelegate" */;
+			buildConfigurationList = 318CC5162ADE959C00351ED9 /* Build configuration list for PBXProject "DIMMulticastDelegate" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -191,8 +191,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				318CC51B2ADE959C00351ED9 /* DMNMulticastDelegate */,
-				318CC5252ADE959C00351ED9 /* DMNMulticastDelegateTests */,
+				318CC51B2ADE959C00351ED9 /* DIMMulticastDelegate */,
+				318CC5252ADE959C00351ED9 /* DIMMulticastDelegateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				318CC5432ADEA7CD00351ED9 /* UINavigationController+MulticastDelegate.m in Sources */,
-				318CC5392ADE95DF00351ED9 /* DMNMulticastDelegateImplementation.m in Sources */,
+				318CC5392ADE95DF00351ED9 /* DIMMulticastDelegateImplementation.m in Sources */,
 				318CC53D2ADE9EA700351ED9 /* UIScrollView+MulticastDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				318CC52C2ADE959C00351ED9 /* DMNMulticastDelegateTests.m in Sources */,
+				318CC52C2ADE959C00351ED9 /* DIMMulticastDelegateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +238,7 @@
 /* Begin PBXTargetDependency section */
 		318CC5292ADE959C00351ED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 318CC51B2ADE959C00351ED9 /* DMNMulticastDelegate */;
+			target = 318CC51B2ADE959C00351ED9 /* DIMMulticastDelegate */;
 			targetProxy = 318CC5282ADE959C00351ED9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -374,6 +374,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,9 +383,12 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = it.dimension.DMNMulticastDelegate;
+				PRODUCT_BUNDLE_IDENTIFIER = it.dimension.DIMMulticastDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,6 +408,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,9 +417,12 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = it.dimension.DMNMulticastDelegate;
+				PRODUCT_BUNDLE_IDENTIFIER = it.dimension.DIMMulticastDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -428,7 +436,7 @@
 				DEVELOPMENT_TEAM = 24PN5XJ85Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = it.dimension.DMNMulticastDelegateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = it.dimension.DIMMulticastDelegateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,7 +451,7 @@
 				DEVELOPMENT_TEAM = 24PN5XJ85Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = it.dimension.DMNMulticastDelegateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = it.dimension.DIMMulticastDelegateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,7 +461,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		318CC5162ADE959C00351ED9 /* Build configuration list for PBXProject "DMNMulticastDelegate" */ = {
+		318CC5162ADE959C00351ED9 /* Build configuration list for PBXProject "DIMMulticastDelegate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				318CC52E2ADE959C00351ED9 /* Debug */,
@@ -462,7 +470,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		318CC5302ADE959C00351ED9 /* Build configuration list for PBXNativeTarget "DMNMulticastDelegate" */ = {
+		318CC5302ADE959C00351ED9 /* Build configuration list for PBXNativeTarget "DIMMulticastDelegate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				318CC5312ADE959C00351ED9 /* Debug */,
@@ -471,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		318CC5332ADE959C00351ED9 /* Build configuration list for PBXNativeTarget "DMNMulticastDelegateTests" */ = {
+		318CC5332ADE959C00351ED9 /* Build configuration list for PBXNativeTarget "DIMMulticastDelegateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				318CC5342ADE959C00351ED9 /* Debug */,

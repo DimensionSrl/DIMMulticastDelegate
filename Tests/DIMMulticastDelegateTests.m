@@ -1,13 +1,13 @@
 //
-//  DMNMulticastDelegateTests.m
-//  DMNMulticastDelegateTests
+//  DIMMulticastDelegateTests.m
+//  DIMMulticastDelegateTests
 //
 //  Created by Matteo Matassoni on 17/10/23.
 //
 
 #import <XCTest/XCTest.h>
 #import <UIKit/UIKit.h>
-#import <DMNMulticastDelegate/DMNMulticastDelegate.h>
+#import <DIMMulticastDelegate/DIMMulticastDelegate.h>
 
 @interface UIScrollViewMulticastDelegateTests : XCTestCase<UIScrollViewDelegate>
 

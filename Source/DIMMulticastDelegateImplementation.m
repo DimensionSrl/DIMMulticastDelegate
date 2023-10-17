@@ -1,13 +1,13 @@
 //
-//  DMNMulticastDelegateImplementation.m
-//  DMNMulticastDelegate
+//  DIMMulticastDelegateImplementation.m
+//  DIMMulticastDelegate
 //
 //  Created by Matteo Matassoni on 17/10/23.
 //
 
-#import "DMNMulticastDelegateImplementation.h"
+#import "DIMMulticastDelegateImplementation.h"
 
-static inline id DMNGetKVOChange(NSDictionary<NSKeyValueChangeKey,id> *change,
+static inline id DIMGetKVOChange(NSDictionary<NSKeyValueChangeKey,id> *change,
                                  NSKeyValueChangeKey keyValueChangeKey) {
     id value = change[keyValueChangeKey];
     if ([value isEqual:NSNull.null]) {
@@ -16,11 +16,11 @@ static inline id DMNGetKVOChange(NSDictionary<NSKeyValueChangeKey,id> *change,
     return value;
 }
 
-static NSInteger DMNMulticastDelegateKVOContext = 0;
+static NSInteger DIMMulticastDelegateKVOContext = 0;
 
 #pragma mark Private Interface
 
-@interface DMNMulticastDelegate()
+@interface DIMMulticastDelegate()
 
 @property (nonatomic, weak) id target;
 @property (nonatomic, assign) SEL delegateGetter;
@@ -30,7 +30,7 @@ static NSInteger DMNMulticastDelegateKVOContext = 0;
 
 @end
 
-@implementation DMNMulticastDelegate
+@implementation DIMMulticastDelegate
 
 #pragma mark Initialization
 
@@ -130,7 +130,7 @@ static NSInteger DMNMulticastDelegateKVOContext = 0;
                       ofObject:(id)object
                         change:(NSDictionary<NSKeyValueChangeKey,id> *)change
                        context:(void *)context {
-    if (context != &DMNMulticastDelegateKVOContext) {
+    if (context != &DIMMulticastDelegateKVOContext) {
         [super observeValueForKeyPath:keyPath
                              ofObject:object
                                change:change
@@ -138,8 +138,8 @@ static NSInteger DMNMulticastDelegateKVOContext = 0;
         return;
     }
 
-    id newUIKitDelegate = DMNGetKVOChange(change, NSKeyValueChangeNewKey);
-    id oldUIKitDelegate = DMNGetKVOChange(change, NSKeyValueChangeOldKey);
+    id newUIKitDelegate = DIMGetKVOChange(change, NSKeyValueChangeNewKey);
+    id oldUIKitDelegate = DIMGetKVOChange(change, NSKeyValueChangeOldKey);
     if (newUIKitDelegate == oldUIKitDelegate || newUIKitDelegate == self) {
         return;
     }
@@ -167,7 +167,7 @@ static NSInteger DMNMulticastDelegateKVOContext = 0;
     [self.target addObserver:self
               forKeyPath:NSStringFromSelector(self.delegateGetter)
                  options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
-                 context:&DMNMulticastDelegateKVOContext];
+                 context:&DIMMulticastDelegateKVOContext];
 }
 
 - (id)performDelegateGetter {
